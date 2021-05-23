@@ -1,7 +1,7 @@
 body{
     min-width: 250px; 
     height: 100%;
-    background-color: #042A4E;
+    background-color: #051420;
 }
 .container{
     display: flex;
@@ -11,7 +11,7 @@ body{
 .tbContainer{
     width: 100%;
     height: 100px;
-    color:white;
+    color:#AEB2B5;
     flex-direction: column;
  }
 
@@ -21,12 +21,29 @@ body{
 }
 
 .tb{
+    margin-top: 60px;
+    padding: 10px;
     width: 80%;
     height: 80%;
-    padding-top: 10px;
-    background-color: #98A5B0;
-    border: 5px solid black;  
+    padding-top: 10px;  
     position: relative;
     left: 10%;
     flex-wrap: wrap;
+    background-color:#C0D0DE;        
+}
+.first{    
+    background-color: #C0D0DE;
+    font-size: large;   
+    color: black;
+    border: 3px solid black;
+}
+.first img{
+    width: 15px;
+    position: relative;
+    left: 10%;
+}
+.others{
+    padding-top: 10px;   
+    background-color: #042A4E;
+    border: 5px solid black;  
 }
