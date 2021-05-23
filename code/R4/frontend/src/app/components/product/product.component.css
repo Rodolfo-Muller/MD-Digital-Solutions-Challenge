@@ -1,0 +1,32 @@
+/* Responsive Styles */
+@media screen and (min-width: 350px) and (max-width: 1200px) {
+  .toolbar {
+    width: 100%;
+  }
+
+  .content-xxl {
+    width: 200px;
+
+    flex-wrap: wrap;
+  }
+  .table {
+    width: 200px;
+  }
+}
+
+/*Container*/
+.container-xxl {
+  margin-top: 100px;
+  justify-content: center;
+}
+.card {
+  width: 550px;
+  height: auto;
+  align-items: center;
+}
+
+table {
+  width: 500px;
+  height: auto;
+  justify-content: center;
+}
